@@ -38,7 +38,7 @@ header{
     margin: 10px;
 }
 .header-nav-a:hover{
-    transition-duration: 200ms;
+    transition: 300ms ease-in-out;
     transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
     opacity: 100%;
     border: 2px solid var(--cor0);
@@ -88,6 +88,13 @@ header{
     /*ABOUT*/
 #about{
     height: 60vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+#about-txt{
+    margin-left: 300px;
 }
 #about-h1{
     font-size: 1.8em;
@@ -96,16 +103,33 @@ header{
     width: 300px;
     text-align: justify;
 }
-.about-a{
-    width: 110px;
+.about-btn{
     padding: 20px;
     color: var(--cor0);
     border-radius: 8px;
-    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.about-btn:hover{
+    transform: scale(1.2);
+    transition: 300ms ease-in-out;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
 }
 #about-a-look{
     background-color: var(--cor2);
 }
 #about-a-buy{
     background-color: var(--cor3);
+    margin: 10px;
+}
+#about-img{
+    width: 80%;
+}
+#about-img-img{
+    width: 100%;
+}
+    /*FEATURES*/
+#features-description{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
