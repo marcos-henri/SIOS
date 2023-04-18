@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: var(--font);
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --font: 'Lato', sans-serif;
+    --cor0: #F2E7DC;
+    --cor1: #F2B279;
+    --cor2: #F2913D;
+    --cor3: #F27405;
+    --cor4: #F25C05;
+}
+        /*HEADER*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    padding: 20px 80px;
+    background-color: var(--cor2);
+    border-bottom: 1px solid var(--cor0);
+}
+#header-logo{
+    margin: 0 150px 0 0;
+    width: 15%;
+}
+.header-nav-a{
+    color: var(--cor0);
+    opacity: 70%;
+    padding: 20px;
+    margin: 10px;
+}
+.header-nav-a:hover{
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+    opacity: 100%;
+    border: 2px solid var(--cor0);
+    border-radius: 15px;
+}
+        /*MAIN*/
+    /*WELCOME*/
+#welcome{
+    height: 86vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor0);
+    color: var(--cor3);
+}
+#welcome-img{
+    width: 35%;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+#welcome-img-logo{
+    width: 100%;
+}
+#welcome-txt{
+    align-self: center;
+}
+#welcome-a{
+    color: var(--cor0);
+    background-color: var(--cor4);
+    padding: 15px;
+    border-radius: 8px;
+}
+#welcome-txt{
+    display: flex;
+    flex-direction: column;
+}
+#welcome-txt > a, p, h1{
+    margin-bottom: 30px;
+}
+#welcome-h1{
+    font-size: 2.5em;
+}
+#welcome-a{
+    width: 110px;
+    text-align: center;
+}
+    /*ABOUT*/
+#about{
+    height: 60vh;
+}
+#about-h1{
+    font-size: 1.8em;
+}
+#about-p{
+    width: 300px;
+    text-align: justify;
+}
+.about-a{
+    width: 110px;
+    padding: 20px;
+    color: var(--cor0);
+    border-radius: 8px;
+    text-align: center;
+}
+#about-a-look{
+    background-color: var(--cor2);
+}
+#about-a-buy{
+    background-color: var(--cor3);
+}
