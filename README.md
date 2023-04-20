@@ -1,6 +1,4 @@
-# SIOS
-<h1>Olá, seja bem vindo(a)</h1>
-
+# Olá, seja bem vindo(a)
 <p>Este é o repositório do SIOS - Sistema de Integração Software-Operação.</p>
 
 <h1>O que é o projeto SIOS?</h1>
@@ -15,13 +13,15 @@
     <p>P = Problema, S = Solução</p>
     <h3>P1 e S1</h3>
     <li>Trânsito e conhecimento da cidade</li>
-    <li>Incorporar o Waze no nosso aplicativo</li>
+    <li>S = Incorporar o Waze no nosso aplicativo</li>
     <h3>P2 e S2</h3>
     <li>Manutenção dos veículos</li>
-    <li>Programação dos dias de manutenção</li>
+    <li>S = Programação dos dias de manutenção</li>
     <h3>P3 e S3</h3>
     <li>Controle entregadores e veículos</li>
-    <li>Cadastrar cada entregador e cada veículo e vinculá-los para ter acesso ao GPS ao vivo</li>
+    <li>S = Cadastrar cada entregador e cada veículo e vinculá-los para ter acesso ao GPS ao vivo</li>
 </ul>
 
-<a href="https://marcos-henri.github.io/SIOS/" target="_blank">Visite o Site aqui!</a>
+<p>Você pode acessar ao protótipo no FIGMA <a href="https://www.figma.com/file/XwVUkWM0GnEBpNV2zqquPU/av1-1%C2%B0semestre-uj-v0.1?node-id=0%3A1&t=JGi7O1Kd4WCjMSrX-1">AQUI</a></p>
+<p>O aplicativo <a href="">AQUI</a></p>
+<a href="https://marcos-henri.github.io/SIOS/" target="_blank">E o Site aqui!</a>
