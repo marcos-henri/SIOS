@@ -18,6 +18,9 @@
     --cor4: #F25C05;
     --cor5: #1d1d1d;
 }
+main{
+    height: 100%;
+}
 button{
     cursor: pointer;
     border: none;
@@ -25,6 +28,7 @@ button{
         /*HEADER*/
 header{
     display: flex;
+
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -38,6 +42,7 @@ header{
     width: 15%;
 }
 .header-nav-a{
+    flex-wrap: wrap;
     color: var(--cor0);
     opacity: 70%;
     padding: 20px;
@@ -55,6 +60,7 @@ header{
 #welcome{
     height: 86vh;
     display: flex;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -62,7 +68,7 @@ header{
     color: var(--cor3);
 }
 #welcome-img{
-    width: 35%;
+    width: 70%;
     margin-right: 5px;
     border-radius: 10px;
 }
@@ -127,15 +133,15 @@ header{
     margin: 20px;
 }
 #about-img{
+    width: 50%;
     margin-left: 5px;
-    width: 40%;
 }
 #about-img-img{
     width: 100%;
 }
     /*FEATURES*/
 #features{
-    height: 70vh;
+    height: 80%;
     background-color: var(--cor0);
     color:var(--cor4);
     padding: 20px;
@@ -145,6 +151,7 @@ header{
 }
 #features-description{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -171,14 +178,11 @@ header{
     width: 70%;
     margin: 0 auto;
 }
-#opinions-btn-left{
-    position: relative;
-    bottom: 80px;
-}
-#opinions-btn-right{
-    position: relative;
-    bottom: 80px;
-    left: 1220px;
+#opinions-btns{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
         /*FOOTER*/
 footer{
@@ -220,4 +224,17 @@ footer{
 }
 #footer-links-sobre li{
     margin-bottom: 8px;
+}
+
+        /*MEDIA QUERIES*/
+@media (max-width: 770px) {
+    #welcome{
+        flex-wrap: wrap;
+    }
+    #welcome-img{
+        margin-right: 0;
+    }
+    #welcome-txt{
+        align-items: center;
+    }
 }
