@@ -23,5 +23,6 @@
 </ul>
 
 <p>Você pode acessar ao protótipo no FIGMA <a href="https://www.figma.com/file/XwVUkWM0GnEBpNV2zqquPU/av1-1%C2%B0semestre-uj-v0.1?node-id=0%3A1&t=JGi7O1Kd4WCjMSrX-1">AQUI</a></p>
-<p>O aplicativo <a href="">AQUI</a></p>
+<a href="https://fornazeli.github.io/SIOS-APP/"></a>
+<p>O aplicativo <a href="https://fornazeli.github.io/SIOS-APP/">AQUI</a></p>
 <a href="https://marcos-henri.github.io/SIOS/" target="_blank">E o Site aqui!</a>
