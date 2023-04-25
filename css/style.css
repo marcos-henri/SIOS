@@ -225,7 +225,14 @@ footer{
 #footer-links-sobre li{
     margin-bottom: 8px;
 }
-
+        /*CARROSSEL*/
+#carousel-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+#carouselExampleControls{
+    padding: 50px 50px;
+}
         /*MEDIA QUERIES*/
 @media (max-width: 770px) {
     #welcome{
