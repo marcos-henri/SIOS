@@ -18,9 +18,6 @@
     --cor4: #F25C05;
     --cor5: #1d1d1d;
 }
-main{
-    height: 100%;
-}
 button{
     cursor: pointer;
     border: none;
@@ -28,18 +25,22 @@ button{
         /*HEADER*/
 header{
     display: flex;
-
-    align-items: center;
-    justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100px;
-    padding: 20px 80px;
+    padding: 30px 80px;
     background-color: var(--cor2);
-    border-bottom: 1px solid var(--cor0);
+    margin-bottom: 1px solid var(--cor0);
 }
 #header-logo{
-    margin: 0 150px 0 0;
-    width: 15%;
+    width: 30%;
+    margin: 0 auto;
+}
+#header-logo-img{
+    width: 100%;
+}
+#header-nav{
+    margin: 50px auto 0 auto;
+    width: 58%;
 }
 .header-nav-a{
     flex-wrap: wrap;
@@ -49,11 +50,10 @@ header{
     margin: 10px;
 }
 .header-nav-a:hover{
-    transition: 300ms ease-in-out;
+    transition: 200ms ease-in-out;
     transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
     opacity: 100%;
-    border: 2px solid var(--cor0);
-    border-radius: 15px;
+    color: var(--cor0);
 }
         /*MAIN*/
     /*WELCOME*/
@@ -68,7 +68,7 @@ header{
     color: var(--cor3);
 }
 #welcome-img{
-    width: 70%;
+    width: 50%;
     margin-right: 5px;
     border-radius: 10px;
 }
@@ -133,7 +133,7 @@ header{
     margin: 20px;
 }
 #about-img{
-    width: 50%;
+    width: 40%;
     margin-left: 5px;
 }
 #about-img-img{
@@ -226,6 +226,9 @@ footer{
     margin-bottom: 8px;
 }
         /*CARROSSEL*/
+.carousel{
+    height: 400px;
+}
 #carousel-title{
     text-align: center;
     margin-bottom: 60px;
